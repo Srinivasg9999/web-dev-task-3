@@ -1,0 +1,53 @@
+#Mention id or email id : Srinivas Gali
+
+#Task Tittle : T0-DO-APP
+
+#Task Description : This HTML structure includes the necessary elements for creating a To-Do List:
+
+				   1.A container <div> for the entire application.
+				   2.A heading <h1> indicating the purpose of the application.		
+				   3.An input container <div> consisting of an input field and a button to add tasks.
+				   4.An unordered list <ul> with an id of "taskList" where the tasks will be displayed.
+			       5.External CSS and JavaScript files linked for styling and functionality, respectively.
+				   
+				   This CSS code defines styles for a simple to-do list application. Here's a breakdown of its key components:
+
+				    body: Sets up the overall layout of the page, with the content centered both horizontally and vertically (display: flex; justify-content: center; align-items: center;). It also specifies a gradient background (background: linear-gradient(135deg, #153677, #4e085f);) spanning the entire viewport height (height: 100vh;).
+						.container: Styles the container for the to-do list, providing a white background with padding, rounded corners (border-radius: 8px;), and a subtle box shadow (box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);). It's centered within the page and has a fixed width of 400 pixels.
+				    h1: Centers the text of the heading within the container.
+						.input-container: Arranges the input field and button horizontally using flexbox (display: flex;). Adds some spacing between them with margin-bottom: 20px;.
+					input[type="text"]: Styles the text input field with padding, border, and border-radius. It takes up available space within the .input-container using flex: 1;.
+					button: Styles the button with padding, background color, text color, border, border-radius, and a pointer cursor for interaction. On hover, the background color changes to a darker shade.
+					ul: Resets the default styles for unordered lists.
+					li: Styles each to-do list item with padding, background color, and rounded corners. These items are visually separated and have a consistent appearance.
+						.completed: Defines styles for completed to-do list items, such as a line-through decoration and a subdued color.
+						Overall, this CSS creates a visually appealing and functional layout for a to-do list application, with attention to detail in styling input fields, buttons, and list items.
+
+					This JavaScript code creates a to-do list application and ensures that it runs when the DOM content is fully loaded. Here's a breakdown of its functionality:
+
+					DOMContentLoaded Event: The code listens for the DOMContentLoaded event, which fires when the initial HTML document has been completely loaded and parsed.
+					Variable Declarations: It declares constants (taskInput, addTaskBtn, taskList) to reference various elements in the HTML document.
+					Event Listeners:
+					The "Add Task" button (addTaskBtn) triggers the addTask function when clicked.
+					The input field (taskInput) listens for the "Enter" keypress event, triggering the addTask function if the Enter key is pressed.
+					addTask Function:
+					Retrieves the text content from the task input field after trimming any leading or trailing whitespace.
+					If the input is not empty, it creates a new list item (<li>) element with the task text content.
+					Adds an event listener to the newly created list item to toggle its completion status (completed class) when clicked.
+					Appends the new list item to the task list (taskList) and resets the input field.
+					toggleTask Function:
+					Toggles the "completed" class of a list item when it is clicked, changing its visual appearance to indicate completion.
+					Overall, this JavaScript code provides the functionality to add tasks to a to-do list by either clicking a button or pressing the Enter key, with the ability to mark tasks as completed by clicking on them.
+					
+#Challenges Faced :Toggles the "completed" class of a list item when it is clicked, changing its visual appearance to indicate completion.
+				   this is the main thing i am faced the challenges.
+
+
+#Solutions Implemented :it's implemented to mainly as the ,which toggles the presence of the "completed" class on the clicked list item. 
+						This class is responsible for changing the visual appearance of the task item, typically by adding styles such as strikethrough or changing the text color. 
+
+#Learnings :So many to learnings on this to-do app.
+			1.how to implemented the js.
+			
+
+#project Update :Completed.
